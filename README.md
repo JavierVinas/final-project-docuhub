@@ -15,9 +15,9 @@ This project was tested only with one electricity provider due to time constrain
 
 ## How does it work?
 
-The app is built using a no-code tool called [Glide] (https://www.glideapps.com/), which acts as a front-end framework and a database system. The data is processed in a Google Sheet file and the image is stored in Glide servers. 
+The app is built using a no-code tool called [Glide](https://www.glideapps.com/), which acts as a front-end framework and a database system. The data is processed in a Google Sheet file and the image is stored in Glide servers. 
 
-Once a new user entry is made, [Zapier] (https://zapier.com/) will listen for that event (a new row being added) and send the data via POST method to a [Heroku] (https://www.heroku.com/) server built on [Flask] (https://flask.palletsprojects.com/en/1.1.x/) framework. 
+Once a new user entry is made, [Zapier](https://zapier.com/) will listen for that event (a new row being added) and send the data via POST method to a [Heroku](https://www.heroku.com/) server built on [Flask](https://flask.palletsprojects.com/en/1.1.x/) framework. 
 
 Once the webhook receives the info it runs a Python script which:
 - Retrieves the image file via HTTP request
