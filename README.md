@@ -1,5 +1,7 @@
 # Final Project Ironhack - DocuHub
 
+![DocuHub App](https://github.com/JavierVinas/final-project-docuhub/blob/main/images/Docuhub_HomeScreen.png)
+
 ## About the project
 
 DocuHub is a functional MVP that allows users to automate data extraction from any kind of document using an OCR Python library. 
@@ -15,7 +17,7 @@ This project was tested **only with one electricity provider** due to time const
 
 ## How does it work?
 
-
+![Flow Diagram](https://github.com/JavierVinas/final-project-docuhub/blob/main/images/Project-flow-diagram.png)
 
 The app is built using a no-code tool called Glide, which acts as a front-end framework and a database system. The data is processed in a Google Sheet file and the image is stored in Glide servers. 
 
@@ -31,19 +33,17 @@ Once the webhook receives the info it runs a Python script which:
 
 ## Project steps
 
-1 - Create a virtual environment on your computer (optional)
-2 - Install the libraries from the requirements.txt file
-3 - Create an account in Glide (free)
-4 - Create an account in Zapier (pro plan or above) --> required to use webhooks actions
-5 - Create an account in Heroku (free)
-6 - Create a Google Cloud Account (free - with quota limitation)
-7 - Make sure your Procfile has the following format
-web: gunicorn appname:app
-example: web: gunicorn glidepipeline:app
-7 - Create a new Google Cloud Project
-8 - Enable Google Drive and Google Sheets service
-9 - Create a json file with the credentials to connect to those services
-10 - Share the Google Sheet file that Glide is using and assign it to the email address account provided in this credential file
+* 1 - Create a virtual environment on your computer (optional)
+* 2 - Install the libraries from the requirements.txt file
+* 3 - Create an account in Glide (free)
+* 4 - Create an account in Zapier (pro plan or above) --> required to use webhooks actions
+* 5 - Create an account in Heroku (free)
+* 6 - Create a Google Cloud Account (free - with quota limitation)
+* 7 - Make sure your Procfile has the following format --> web: gunicorn appname:app
+* 8 - Create a new Google Cloud Project
+* 9 - Enable Google Drive and Google Sheets service
+* 10 - Create a json file with the credentials to connect to those services
+* 11 - Share the Google Sheet file that Glide is using and assign it to the email address account provided in this credential file
 
 ## Tecnologies used
 
@@ -53,7 +53,7 @@ example: web: gunicorn glidepipeline:app
 - [Heroku](https://www.heroku.com/): a platform that enables developers to build, run, and operate applications in the cloud
 
 ## Libraries
-The core of the project is Python 3.7.6 therefore you will have to install those libraries for run the script. It is advisable to create a virtual environment to import all libraries and run the script in your machine. 
+The **core of the project is Python 3.7.6** therefore you will have to install those libraries for run the script. It is advisable to create a virtual environment to import all libraries and run the script in your machine. 
 
 ### Native Python packages
 - [datetime](https://docs.python.org/2/library/datetime.html)
