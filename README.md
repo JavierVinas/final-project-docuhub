@@ -34,17 +34,17 @@ Once the webhook receives the info it runs a Python script which:
 
 ## Project steps
 
-* 1) Create a virtual environment on your computer (optional)
-* 2) Install the libraries from the requirements.txt file
-* 3) Create an account in Glide (free)
-* 4) Create an account in Zapier (pro plan or above) --> required to use webhooks actions
-* 5) Create an account in Heroku (free)
-* 6) Create a Google Cloud Account (free - with quota limitation)
-* 7) Make sure your Procfile has the following format --> web: gunicorn appname:app
-* 8) Create a new Google Cloud Project
-* 9) Enable Google Drive and Google Sheets service
-* 10) Create a json file with the credentials to connect to those services
-* 11) Share the Google Sheet file that Glide is using and assign it to the email address account provided in this credential file
+1) Create a virtual environment on your computer (optional)
+2) Install the libraries from the requirements.txt file
+3) Create an account in Glide (free)
+4) Create an account in Zapier (pro plan or above) --> required to use webhooks actions
+5) Create an account in Heroku (free)
+6) Create a Google Cloud Account (free - with quota limitation)
+7) Make sure your Procfile has the following format --> web: gunicorn appname:app
+8) Create a new Google Cloud Project
+9) Enable Google Drive and Google Sheets service
+10) Create a json file with the credentials to connect to those services
+11) Share the Google Sheet file that Glide is using and assign it to the email address account provided in this credential file
 
 ## Tecnologies used
 
